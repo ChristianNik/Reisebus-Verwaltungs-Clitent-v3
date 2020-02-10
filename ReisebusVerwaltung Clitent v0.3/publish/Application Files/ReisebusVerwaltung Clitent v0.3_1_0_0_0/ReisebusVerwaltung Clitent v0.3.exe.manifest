@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ReisebusVerwaltung Clitent v0.3.exe" version="1.0.0.0" publicKeyToken="dc18b89bf054d9e5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ReisebusVerwaltung Clitent v0.3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ReisebusVerwaltung Clitent v0.3.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Ebene der Windows-Benutzerkontensteuerung ändern möchten, ersetzen Sie den 
+          Knoten "requestedExecutionLevel" durch eine der folgenden Angaben.
+
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+         Wenn Sie Datei- und Registrierungsvirtualisierung für Abwärtskompatibilität 
+         verwenden möchten, löschen Sie den Knoten "requestedExecutionLevel".
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="294400">
+      <assemblyIdentity name="Google.Protobuf" version="3.5.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kmmLSyM9YCkmP+X33YMDTg/6sJlFHUuInLwRv1o/LXM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="708608">
+      <assemblyIdentity name="MySql.Data" version="8.0.15.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>csTtN1Dz7O3Ap24hir7uPIxKZlXZR6aCAPiKHL53CWo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReisebusVerwaltung Clitent v0.3.exe" size="98256">
+      <assemblyIdentity name="ReisebusVerwaltung Clitent v0.3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d8nijI2CZGjuPDSEA9Ib3zReN6P1mxX9q1J8Qejv5Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ReisebusVerwaltung Clitent v0.3.exe.config" size="1365">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gWjaLB6OmbdaidcnGRuyxj2d74UMkfsXhPGJCs44Q6I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Chris-PC\Christian" issuerKeyHash="93f685c9c815d887cd1d31e7304eebb04993cdf2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>691+XJE6klVRx3SYU27JogCGfHBj8aYicTRwTJ7UUzw=</DigestValue></Reference></SignedInfo><SignatureValue>UzFktCt6cFUA2ixM07Pw+Y7bVgqBLQYQidghYCDvMv3SVIF5rgd4ovoD5BsvFXnTgZXx+DoNf2UZsfIhtTVQpd0GSon1TwE2tu7Vy3MnCfyOStV8u/QH8dAUqaL7vxvbW+NbmisNTCq/nqzPN7VUhVMJTGRFOYwq9dfIFtx3L9g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pytYbf+NM5qEvI8UAPviXoQh3MKHllVTP7bwWqBU/BDnNTlgQF64CbO/A4D2rv5cyUWgPnNeqmaFF5nEwwCLI5WbUOHl/YgoRliuP11JvYUgBgz5k+h/XIyyU9mPcghMCn3zkMk6SAqu7Dc/2xX1TuTkyRb5lAwGAkUFNEZ0Wjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3c53d49e4c70347122a6f163707c8600a2c96e539874c75155923a915c7eddeb" Description="" Url=""><as:assemblyIdentity name="ReisebusVerwaltung Clitent v0.3.exe" version="1.0.0.0" publicKeyToken="dc18b89bf054d9e5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Chris-PC\Christian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MXG/QOAuSCfXTIuoaxXDvvYqcmEsw/JtWsDXVHYxCQw=</DigestValue></Reference></SignedInfo><SignatureValue>dulddE5m+ScjKtz4Vro34VeP03lzoQICStxXjCBWSCrOyZ9Cc3uZ7EDFye/0yd7pxnnfgIxTmd8xtt+MdRtl20MaHfDOaXivCvy/V2t0OCnODwSvDJb82B9GzoiVl4RYoX3iVzUGEQg5tBQGYEbgOK4v8CadJy6ZIZc4RofZs+4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pytYbf+NM5qEvI8UAPviXoQh3MKHllVTP7bwWqBU/BDnNTlgQF64CbO/A4D2rv5cyUWgPnNeqmaFF5nEwwCLI5WbUOHl/YgoRliuP11JvYUgBgz5k+h/XIyyU9mPcghMCn3zkMk6SAqu7Dc/2xX1TuTkyRb5lAwGAkUFNEZ0Wjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQV3fHtMPJqr1C8oLTCcxYszANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQwBoAHIAaQBzAC0AUABDAFwAQwBoAHIAaQBzAHQAaQBhAG4wHhcNMTkwNDAzMTk1NjI0WhcNMjAwNDAzMDE1NjI0WjAvMS0wKwYDVQQDHiQAQwBoAHIAaQBzAC0AUABDAFwAQwBoAHIAaQBzAHQAaQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKcrWG3/jTOahLyPFAD74l6EIdzCh5ZVUz+28FqgVPwQ5zU5YEBeuAmzvwOA9q7+XMlFoD5zXqpmhReZxMMAiyOVm1Dh5f2IKEZYrj9dSb2FIAYM+ZPof1yMslPZj3IITAp985DJOkgKruw3P9sV9U7k5MkW+ZQMBgJFBTRGdFo3AgMBAAEwDQYJKoZIhvcNAQELBQADgYEANG7owUvhjhgJ6pUmBMbfpAADsspHyNkkMFocwxRhSbXxE5YqzZnoYYlVxSrJxfmRYkDB3bb87nLM0gxIzD/stuELFRV1JGLR93Ga7B/f+FWx4F8/CCLLWmiTq+ofHdEp0yT7Ik954iSWaJKSU/fqa7ROI8bPHd+Oc1n9gxkRRTM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
